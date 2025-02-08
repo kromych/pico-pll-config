@@ -1,0 +1,16 @@
+[package]
+name = "pll_config_macro"
+version = "0.1.0"
+edition = "2021"
+authors = ["kromych"]
+description = "PLL configuration macro for the Raspberry Pi Pico"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "2.0"
+rp2040-hal = ">= 0.5"
+fugit = ">= 0.2"
