@@ -324,7 +324,7 @@ mod tests {
 /// # Example
 ///
 /// ```rust
-/// use pll_config_macro::pll_config;
+/// use pico_pll_config::pll_config;
 /// use rp2040_hal::pll::PLLConfig;
 ///
 /// // 480000 represents 480 MHz (i.e. 480000 kHz)
