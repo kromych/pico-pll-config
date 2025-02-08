@@ -1,6 +1,6 @@
 [package]
 name = "pico_pll_config"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["kromych"]
 description = "PLL configuration macro for the Raspberry Pi Pico"
@@ -9,6 +9,7 @@ homepage = "https://github.com/kromych/pico_pll_config"
 keywords = ["embedded", "hal", "raspberry-pi", "rp2040", "embedded-hal"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/kromych/pico_pll_config"
+readme = "Readme.md"
 
 [lib]
 proc-macro = true
