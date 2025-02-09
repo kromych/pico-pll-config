@@ -1,6 +1,6 @@
 [package]
 name = "pico_pll_config"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["kromych"]
 description = "PLL configuration macro for the Raspberry Pi Pico"

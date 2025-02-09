@@ -257,6 +257,16 @@ mod tests {
                 expected_pd2: 5,
                 expected_vco: 1440.0,
             },
+            // Requested:  125.0 MHz -> Expected: REFDIV=1, FBDIV=125, PD1=6, PD2=2, VCO=1500.0 MHz.
+            TestCase {
+                requested_mhz: 125.0,
+                achieved_mhz: 125.0,
+                expected_refdiv: 1,
+                expected_fbdiv: 125,
+                expected_pd1: 6,
+                expected_pd2: 2,
+                expected_vco: 1500.0,
+            },
         ];
 
         for tc in &test_cases {
