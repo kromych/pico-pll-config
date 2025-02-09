@@ -1,14 +1,14 @@
 [package]
 name = "pico_pll_config"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["kromych"]
 description = "PLL configuration macro for the Raspberry Pi Pico"
 categories = ["embedded", "hardware-support", "no-std", "no-std::no-alloc"]
-homepage = "https://github.com/kromych/pico_pll_config"
+homepage = "https://github.com/kromych/pico-pll-config"
 keywords = ["embedded", "hal", "raspberry-pi", "rp2040", "embedded-hal"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/kromych/pico_pll_config"
+repository = "https://github.com/kromych/pico-pll-config"
 readme = "Readme.md"
 
 [lib]
